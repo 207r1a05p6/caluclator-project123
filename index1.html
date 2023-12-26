@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator project</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+    <div id="box">
+        <input type="text" id="display" readonly>
+        <div id="button-format">
+            <button class="button" onclick="currentcal='';
+            document.querySelector('#display').value=currentcal">c</button>
+            <button class="button" onclick="currentcal=currentcal+'1';
+            document.querySelector('#display').value=currentcal">1</button>
+            <button class="button"onclick="currentcal=currentcal+'2';
+            document.querySelector('#display').value=currentcal">2</button>
+            <button class="button"onclick="currentcal=currentcal+'+';
+            document.querySelector('#display').value=currentcal">+</button>
+            <button class="button"onclick="currentcal=currentcal+'3';
+            document.querySelector('#display').value=currentcal">3</button>
+            <button class="button"onclick="currentcal=currentcal+'4';
+            document.querySelector('#display').value=currentcal">4</button>
+            <button class="button"onclick="currentcal=currentcal+'-';
+            document.querySelector('#display').value=currentcal">-</button>
+            <button class="button"onclick="currentcal=currentcal+'5';
+            document.querySelector('#display').value=currentcal">5</button>
+            <button class="button"onclick="currentcal=currentcal+'6';
+            document.querySelector('#display').value=currentcal">6</button>
+            <button class="button"onclick="currentcal=currentcal+'*';
+            document.querySelector('#display').value=currentcal">*</button>
+            <button class="button"onclick="currentcal=currentcal+'7';
+            document.querySelector('#display').value=currentcal">7</button>
+            <button class="button"onclick="currentcal=currentcal+'8';
+            document.querySelector('#display').value=currentcal">8</button>
+            <button class="button"onclick="currentcal=currentcal+'/';
+            document.querySelector('#display').value=currentcal">/</button>
+            <button class="button"
+            onclick="currentcal=eval(currentcal);
+            document.querySelector('#display').value=currentcal">=</button>
+            <button class="button"onclick="currentcal=currentcal+'9';
+            document.querySelector('#display').value=currentcal" >9</button>
+            <button class="button"onclick="currentcal=currentcal+'0';
+            document.querySelector('#display').value=currentcal">0</button>
+            <button class="button"onclick="currentcal=currentcal+'.';
+            document.querySelector('#display').value=currentcal">.</button>
+        </div>
+        
+    </div>
+    <script>
+        let currentcal=0;
+        document.querySelector('#display').value=currentcal;
+    </script>
+</body>
+</html>

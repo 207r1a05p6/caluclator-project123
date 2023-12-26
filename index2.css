@@ -1,0 +1,25 @@
+#box{
+    /* height: 500px; */
+    width: 200px;
+    border:2px solid rgba(31, 27, 27, 0.461);
+    border-radius: 5px;
+
+}
+#display{
+    margin: 10px;
+    font-size: 25px;
+    width: 85%;
+}
+.button-format{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    /* margin: 15px; */
+    
+}
+.button{
+    height: 45px;
+    width: 45px;
+    margin: 3px;
+    /* border-radius: 5px; */
+}
